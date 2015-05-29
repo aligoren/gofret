@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Gofret by aligoren</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Gofret</h1>
+        <h2>gofret is a Download Manager written in Go.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/aligoren/gofret/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/aligoren/gofret/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/aligoren/gofret" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="gofret-download-manager" class="anchor" href="#gofret-download-manager" aria-hidden="true"><span class="octicon octicon-link"></span></a>Gofret Download Manager</h1>
+
+<p>Gofret is a Download Manager written in Go.</p>
+
+<p><a href="https://github.com/aligoren/gofret/raw/master/build/gofret.exe">Download</a></p>
+
+<p>Gofret, <a href="http://www.gnu.org/software/wget/">wget</a> like a download manager. But simple and amateur.</p>
+
+<p>Gofret using the go's <a href="https://github.com/cheggaaa/pb">pb</a> library.</p>
+
+<p><strong>Gofret Version 0.1</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/aligoren/gofret/master/intro.png" alt="intro.png"></p>
+
+<h1>
+<a id="build" class="anchor" href="#build" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build</h1>
+
+<p>Install <strong>pb</strong> library</p>
+
+<div class="highlight highlight-shell"><pre>go get github.com/cheggaaa/pb</pre></div>
+
+<p>After install:</p>
+
+<div class="highlight highlight-shell"><pre>go build -o gofret main.go // linux, unix like systems
+go build -o gofret.exe main.go // <span class="pl-k">for</span> <span class="pl-smi">windows</span></pre></div>
+
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<h4>
+<a id="after-build" class="anchor" href="#after-build" aria-hidden="true"><span class="octicon octicon-link"></span></a>After Build:</h4>
+
+<div class="highlight highlight-shell"><pre>./gofret -url=https://somesite.com/somefile.zip</pre></div>
+
+<p><img src="https://raw.githubusercontent.com/aligoren/gofret/master/screenshot.png" alt="screenshot.png"></p>
+
+<h4>
+<a id="help" class="anchor" href="#help" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help</h4>
+
+<div class="highlight highlight-shell"><pre>./gofret -help</pre></div>
+
+<h4>
+<a id="version" class="anchor" href="#version" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version</h4>
+
+<div class="highlight highlight-shell"><pre>./gofret -version</pre></div>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
